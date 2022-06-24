@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EJERCICIO14.Views.FotoPage" 
+             xmlns:controls="clr-namespace:EJERCICIO14.Controlers;assembly=EJERCICIO14"
+             Title="Agregar Persona"
+             BackgroundColor="Lavender">
+
+    <Grid Padding="20,10,20,10" RowSpacing="10">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+           
+        </Grid.RowDefinitions>
+
+
+        <ImageButton 
+            Source="foto" 
+            Grid.Row="0" 
+            HeightRequest="150" 
+            WidthRequest="150" 
+            BackgroundColor="Transparent"
+            HorizontalOptions="Center" 
+            VerticalOptions="Center"
+            x:Name="Foto" 
+            Clicked="Foto_Clicked"/>
+
+
+
+
+        <controls:StandardEntry
+            Grid.Row="1"
+            Padding="13"
+            BackgroundColor="#5e99d3"
+            BorderColor="White"
+            BorderThickness="1"
+            CornerRadius="8"
+            Placeholder="Ingrese su nombre"
+            x:Name="txtNombre"
+            PlaceholderColor="White"
+            TextColor="White"
+            Keyboard="Text"/>
+
+
+
+        <controls:StandardEntry
+            Grid.Row="2"
+            Padding="13"
+            BackgroundColor="#5e99d3"
+            BorderColor="White"
+            BorderThickness="1"
+            CornerRadius="8"
+            Placeholder="Ingrese la descripcion"
+            x:Name="txtDescripcion"
+            PlaceholderColor="White"
+            TextColor="White"
+            Keyboard="Text"
+            />
+
+
+        <Button 
+            Margin="0,20,0,0"
+            Grid.Row="3"
+            BackgroundColor="#efb810"
+            CornerRadius="8"
+            Text="Agregar"
+            TextColor="Black"
+            TranslationY="-20" 
+            x:Name="btnAgregar"
+            Clicked="btnAgregar_Clicked"/>
+
+
+
+    </Grid>
+
+
+</ContentPage>

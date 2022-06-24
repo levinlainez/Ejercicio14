@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EJERCICIO14.Views.MainPage"
+             BackgroundColor="Lavender"
+             xmlns:convertidor="clr-namespace:EJERCICIO14.Convertidor"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <convertidor:BytetoImage x:Key="ByteToImage"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+        <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Agregar Datos"
+                     Clicked="datos_Clicked"
+                     x:Name="datos">
+
+        </ToolbarItem>
+
+    </ContentPage.ToolbarItems>
+
+    <pancake:PancakeView Grid.Row="1" BackgroundColor="WhiteSmoke"
+                                 CornerRadius="60,60,0,0" >
+        <ListView x:Name="lsPersona"  Margin="20"
+                           SeparatorVisibility="None" BackgroundColor="WhiteSmoke"
+                           Header="" HasUnevenRows="True">
+
+            <ListView.HeaderTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions >
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Label Text="Foto" Grid.Column="0" FontSize="Subtitle"
+                                       TextColor="Green"/>
+                        <Label Text="Nombre" Grid.Column="1" FontSize="Subtitle"
+                                       TextColor="Green"/>
+                        <Label Text="Descripcion" Grid.Column="2" FontSize="Subtitle"
+                                       TextColor="Green"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.HeaderTemplate>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="80"/>
+                                    <ColumnDefinition Width="80"/>
+                                    <ColumnDefinition Width="100"/>
+                                    </Grid.ColumnDefinitions>
+                             
+                                <Image
+                                Source="{Binding foto, Converter={StaticResource ByteToImage}}"  Grid.Column="0" />
+                                <Label Text="{Binding nombre}" Grid.Column="1" FontSize="Body"
+                                           TextColor="#566573"/>
+                                    <Label Text="{Binding descripcion}" Grid.Column="2" FontSize="Body"
+                                           TextColor="#566573"/>
+                                </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </pancake:PancakeView>
+
+
+</ContentPage>
+

@@ -1,0 +1,16 @@
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\bin\Debug\netstandard2.0\EJERCICIO14.deps.json
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\bin\Debug\netstandard2.0\EJERCICIO14.dll
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\bin\Debug\netstandard2.0\EJERCICIO14.pdb
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\EJERCICIO14.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\EJERCICIO14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\EJERCICIO14.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\EJERCICIO14.AssemblyInfo.cs
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\EJERCICIO14.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\EJERCICIO14.dll
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\refint\EJERCICIO14.dll
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\EJERCICIO14.pdb
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\ref\EJERCICIO14.dll
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\Views\FotoPage.xaml.g.cs
+C:\Users\HP\source\repos\EJERCICIO14\EJERCICIO14\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
